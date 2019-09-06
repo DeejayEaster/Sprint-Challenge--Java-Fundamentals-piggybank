@@ -1,4 +1,4 @@
-package bank;
+package com.lambdaschool.bank;
 
 public class Quarter extends Money{
 

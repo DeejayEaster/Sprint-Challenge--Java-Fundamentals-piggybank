@@ -1,4 +1,4 @@
-package bank;
+package com.lambdaschool.bank;
 
 public abstract class Money {
     String name;
@@ -29,5 +29,10 @@ public abstract class Money {
 
     public int getQuantity() {
         return quantity;
+    }
+
+    @Override
+    public String toString() {
+        return quantity + " " + name;
     }
 }
