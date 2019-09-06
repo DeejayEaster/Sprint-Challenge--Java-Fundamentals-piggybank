@@ -1,8 +1,8 @@
 package bank;
 
-public class Quarter {
+public class Quarter extends Money{
 
-    public Quarter(int amount) {
-        super(amount, "Quarter", 0.25);
+    public Quarter(int quantity) {
+        super("Quarter", 0.25, quantity);
     }
 }

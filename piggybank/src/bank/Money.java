@@ -1,17 +1,17 @@
 package bank;
 
-public abstract class Monies {
+public abstract class Money {
     String name;
     double value;
     int quantity;
 
-    public Monies(String name, double value, int quantity) {
+    public Money(String name, double value, int quantity) {
         this.name = name;
         this.value = value;
         this.quantity = quantity;
     }
 
-    public Monies() {
+    public Money() {
         quantity = 1;
     }
 
